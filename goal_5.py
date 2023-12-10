@@ -20,8 +20,6 @@ class Iterator:
             raise StopIteration
 
 
-a = Iterator(
-    os.path.join("c:\\", "Users", "MSI", "Desktop","Programming", "Lab1webscraping", "dataset"), "good"
-)
+a = Iterator(os.path.join("c:\\", "Users", "MSI", "Desktop","Programming", "Lab1webscraping", "dataset"), "good")
 for i in range(1000):
     print(next(a))
