@@ -21,4 +21,4 @@ def main(annotation_name: str, dataset_folder: str) -> None:
 
 
 if __name__ == "__main__":
-    main("annotations_1.csv", "C:\\Users\\MSI\\Desktop\\Programming\\Lab1webscraping\\dataset")
+    main("annotations_1.csv", "C:\\Users\\MSI\\Documents\\Programming\\Lab1webscraping\\dataset")

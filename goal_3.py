@@ -25,4 +25,4 @@ def main(dataset_dir: str, dir_for_copy: str, annotation_name: str) -> None:
                 writer.writerow(row)
 
 if __name__ == "__main__":
-    main("C:\\Users\\MSI\\Desktop\\Programming\\Lab1webscraping\\dataset", "C:\\Users\\MSI\\Desktop\\Programming\\Lab2dataprocessing\\dataset_copy_3","annotations_3.csv")
+    main("C:\\Users\\MSI\\Documents\\Programming\\Lab1webscraping\\dataset", "C:\\Users\\MSI\\Documents\\Programming\\Lab2dataprocessing\\dataset_copy_3","annotations_3.csv")
